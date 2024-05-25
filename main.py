@@ -1,7 +1,8 @@
 SUPPORTED_OPERATIONS = {
     "+": lambda a, b: a + b,
     "-": lambda a, b: a - b,
-    "*": lambda a, b: a * b
+    "*": lambda a, b: a * b,
+    "/": lambda a, b: a / b
 }
 
 
