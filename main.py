@@ -1,4 +1,4 @@
-SUPPORTED_OPERATIONS = []
+SUPPORTED_OPERATIONS = ["+"]
 
 
 def add(a: int, b: int) -> int:
