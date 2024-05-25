@@ -19,4 +19,12 @@ def calculate(a: int, b: int, operation: str) -> float:
 
 
 if __name__ == '__main__':
-    print()
+    print("Welcome to integer calculator!")
+    while True:
+        print("Input a string in format: 'int number' 'operation' 'int number' or -1 to exit")
+        input_string = input()
+        if input_string == "-1":
+            break
+
+        result = parse_input(input_string)
+        print(f'Result: {result}')
