@@ -6,9 +6,10 @@ SUPPORTED_OPERATIONS = {
 
 
 def parse_input(input_string: str) -> float:
-    first_number = int(input_string[0])
-    second_number = int(input_string[2])
-    operation = input_string[1]
+    input_tokens = input_string.split(" ")
+    first_number = int(input_tokens[0])
+    second_number = int(input_tokens[2])
+    operation = input_tokens[1]
     return calculate(first_number, second_number, operation)
 
 
